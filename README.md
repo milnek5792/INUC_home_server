@@ -14,15 +14,15 @@ Smart Life aplikace zůstává jen pro **párování** nových zařízení do Wi
 
 | Dokument | Obsah |
 |----------|--------|
-| [docs/nuc-install.md](docs/nuc-install.md) | Záloha Windows, BIOS, USB, instalace HAOS, první boot, DHCP rezervace |
+| [docs/nuc-install.md](docs/nuc-install.md) | Záloha Windows, Ubuntu Live USB, zápis HAOS na interní disk, první boot, DHCP rezervace |
 | [docs/mqtt-mosquitto.md](docs/mqtt-mosquitto.md) | Mosquitto addon, MQTT uživatel, integrace, publish/subscribe test |
 | [docs/tuya-local.md](docs/tuya-local.md) | HACS, Tuya Local, local key, offline WAN test |
 | [docs/checklist.md](docs/checklist.md) | Checklist „server je hotový“ |
 
 ## Quick start
 
-1. Zálohujte Windows a nastavte BIOS (UEFI; Secure Boot dle potřeby) — viz [instalace NUC](docs/nuc-install.md).
-2. Nainstalujte HAOS `generic-x86-64` z USB; po bootu otevřete `http://homeassistant.local:8123`.
+1. Zálohujte Windows a nastavte BIOS (**UEFI on**, **Secure Boot off**) — viz [instalace NUC](docs/nuc-install.md).
+2. Z Ubuntu Live USB zapište HAOS `generic-x86-64` na **interní disk** NUC (HAOS nemá instalátor); po bootu otevřete `http://homeassistant.local:8123`.
 3. V routeru nastavte DHCP rezervaci pro NUC.
 4. Nainstalujte Mosquitto a ověřte MQTT — viz [MQTT](docs/mqtt-mosquitto.md).
 5. Nainstalujte HACS + Tuya Local a přidejte zařízení — viz [Tuya Local](docs/tuya-local.md).

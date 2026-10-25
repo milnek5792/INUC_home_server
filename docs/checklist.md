@@ -5,8 +5,9 @@ Označte položky po ověření. Žádná položka nevyžaduje commit secretů d
 ## Home Assistant OS na NUC
 
 - [ ] Windows data zálohována (disk NUC byl přepsán)
-- [ ] BIOS: UEFI, boot z interního disku
-- [ ] HAOS `generic-x86-64` běží místo Windows
+- [ ] BIOS: UEFI on, Secure Boot off, boot z interního disku
+- [ ] HAOS `generic-x86-64` zapsán na interní disk (Ubuntu Live → Restore Disk Image)
+- [ ] HAOS běží místo Windows
 - [ ] UI dostupné na `http://homeassistant.local:8123` (nebo rezervované IP)
 - [ ] Onboarding dokončen (admin účet, lokalita)
 - [ ] DHCP rezervace pro NUC v routeru
